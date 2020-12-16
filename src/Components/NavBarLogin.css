@@ -1,0 +1,13 @@
+.nav-login {
+  padding: 30px 0;
+  box-shadow: 1px 4px 3px #cccccc;
+}
+
+.nav-login .flex {
+  justify-content: space-between;
+}
+
+.nav-login img {
+  width: 195.46px;
+  height: 45px;
+}
