@@ -1,15 +1,15 @@
 const User = require('../models/userModel');
-// const validate = require('../middleware/validation');
+const {regAuth} = require('../middleware/validation');
 const { catchWrapper } = require('../utils/helpers');
 
-// exports.registerUser = catchWrapper (async(req, res, next) => {
-//     const {firstname,lastname,email,country,password,photo,phoneNumber} = req.body
-//     const user = new User({firstname,lastname,email,country,password,photo,phoneNumber})
-//     await user.save ({ new: true }, (err)=> {
-//         if (err)
-//         next(res.status(400).send('an error just occured!'))
-//     })
-// });
+exports.registerUser = catchWrapper (async(req, res, next) => {
+    const inputValidation = await regAuth.validateAsync(req.body)
+    const user = new User({...inputValidation})
+    await user.save ({ new: true }, (err) => {
+    if (err)  res.status(400).send('User detail could not be registered: Check server connection')})
+    res.status(200).send({user})
+    
+});
 
 
 exports.getUser = catchWrapper (async(req, res, next) => {
