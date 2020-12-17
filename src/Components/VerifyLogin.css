@@ -20,10 +20,10 @@
   padding: 1rem 0;
   text-align: center;
 }
-.verify-login-card:nth-child(2) {
+.verify-text {
   padding-top: 1.8rem;
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 .verify-login-code {
@@ -38,9 +38,11 @@
   text-align: center;
   width: 157px;
   margin-right: 10px;
+  font-size: 1.2rem;
 }
 .verify-login-btn {
   padding: 10px 25px;
+  font-family: "Poppins";
 }
 
 .verify-login-password p {
