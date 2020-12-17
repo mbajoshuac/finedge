@@ -4,11 +4,6 @@
 .account-form {
   height: 545px;
   width: 540px;
-  margin: 20px auto;
-  padding: 2px 30px;
-  background: #ffffff;
-  border-radius: 10px;
-  box-shadow: 8px 8px 10px #cccccc;
 }
 
 .form-control {

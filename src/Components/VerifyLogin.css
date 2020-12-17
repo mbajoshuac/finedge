@@ -1,0 +1,56 @@
+.verify-login {
+  margin-top: 40px;
+}
+
+.verify-login h1 {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  letter-spacing: 0.1px;
+  text-align: center;
+}
+.verify-login h1 span {
+  color: #0062ff;
+}
+
+.verify-login-card {
+  width: 540px;
+  padding: 0px 0px 1rem 0;
+}
+.verify-login-card h2 {
+  padding: 1rem 0;
+  text-align: center;
+}
+.verify-login-card:nth-child(2) {
+  padding-top: 1.8rem;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.verify-login-code {
+  background: #92929d;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5rem 0;
+  margin-top: 10px;
+}
+.verify-login-password input[type="password"] {
+  padding: 10px 25px;
+  text-align: center;
+  width: 157px;
+  margin-right: 10px;
+}
+.verify-login-btn {
+  padding: 10px 25px;
+}
+
+.verify-login-password p {
+  padding-bottom: 10px;
+}
+
+.verify-login-checkbox {
+  width: 80%;
+  margin: 1rem auto;
+}
+.verify-login-checkbox label {
+  padding-left: 8px;
+}

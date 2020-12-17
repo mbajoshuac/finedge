@@ -1,4 +1,30 @@
 .sign-in {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.sign-in-card {
   width: 540px;
   margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.sign-in-card input[type="text"],
+.sign-in-card input[type="password"] {
+  width: 80%;
+  margin-bottom: 2rem;
+}
+.sign-in-card .login-div label {
+  font-size: 14px;
+  padding-left: 8px;
+}
+
+.login-div {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sign-in-privacy {
+  margin-top: 2rem;
 }

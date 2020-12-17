@@ -4,7 +4,7 @@
 /*Utilities*/
 body {
   font-family: "Poppins", sans-serif;
-  background: #e5e5e5;
+  background: #fbfbfb;
 }
 
 * {
@@ -36,6 +36,14 @@ body {
 .bttn-outline {
   background-color: #ffffff;
   color: #000000;
+}
+
+.card {
+  margin: 20px auto;
+  padding: 2px 30px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 8px 8px 10px #cccccc;
 }
 
 input[type="text"],
