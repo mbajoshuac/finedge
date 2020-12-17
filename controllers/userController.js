@@ -1,4 +1,5 @@
 const User = require('../models/userModel');
+const validate = require('../middleware/validation')
 
 exports.userController = (req, res) => {
     const data = {
