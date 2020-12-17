@@ -1,0 +1,24 @@
+.fa-comment-dots{
+    font-size: 6rem;
+    color:#0062ff;
+    display: inline-block;
+}
+#form-message{
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+#form-input{
+    padding: 15px 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    width: 100%
+}
+#auth-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    margin-top: 50px;
+}

@@ -6,10 +6,10 @@ import '../../index.css'
 function VerifyEmail() {
     return (
         <>
-        <div className="container">
-            <div className="main">
-                <h1>Verify Your Email</h1>
-                    <div className="card">
+            <div className="container">
+                <div className="main">
+                    <h1>Verify Your Email</h1>
+                        <div className="card">
                         
                         <div clasName= "icon">
                             <i className="fa fa-paper-plane"></i>

@@ -9,10 +9,10 @@ function CreateAccount() {
         <>
             <h1 style={{textAlign: 'center', color: '#0062ff'}}>Finance Edge</h1> 
             <section className="create-account">
-                
+            <h2 style={{textAlign: 'center', marginTop:'20px'}}>Set up Two Step Verification</h2>
                 <div className="account-form card">
 
-                    <h2 style={{textAlign: 'center', marginTop:'20px'}}>Set up Two Step Verification</h2>
+                    
                     <form>
                         <div className="form-control">
                             <select id="form-input" >
@@ -25,9 +25,9 @@ function CreateAccount() {
                         <input type="text" id="form-input" placeholder="+234"/>
                         </div>
                         
-                        <p>Security is critical at FinanceEgde . To help keep your account safe, we’ll send a verification code sms when you sign in using a new device</p>
+                        <p>Security is critical at FinanceEgde. To help keep your account safe, we’ll send a verification code sms when you sign in using a new device</p>
                         <div className="form-control">
-                            <button type="submit" className="bttn">Sign Up</button>
+                            <button type="submit" className="bttn">Send</button>
                         </div>
                     </form>
                     
