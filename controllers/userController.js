@@ -1,23 +1,17 @@
 const User = require('../models/userModel');
-const validate = require('../middleware/validation')
+const validate = require('../middleware/validation');
+const { catchWrapper } = require('../utils/helpers');
 
-exports.userController = (req, res) => {
-    const data = {
-        firstName: req.body.firstname,
-        lastName: req.body.lastName,
-        email: req.body.email,
-        country: req.body.country,
-        password: req.body.password,
-        photo: req.body.photo
-    }
-    User.create(data, (err, user) => {
-        try {
-            res.status(201).send({
-                success: true,
-                msg: user
-            })
-        } catch (err) {
-            res.status(400).send({ err })
-        }
+exports.registerUser = catchWrapper (async(req, res, next) => {
+    const {firstname,lastname,email,country,password,photo,phoneNumber} = req.body
+    const user = new User({firstname,lastname,email,country,password,photo,phoneNumber})
+    await user.save ({ new: true }, (err)=> {
+        if (err)
+        next(res.status(400).send('an error just occured!'))
     })
-};
+});
+
+
+exports.getUser = catchWrapper(async(req, res, next) => {
+    res.status(200).send({message: "Users are ready"})
+})
