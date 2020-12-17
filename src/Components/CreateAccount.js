@@ -6,7 +6,7 @@ function CreateAccount() {
         <>
             <section className="create-account">
                 <h1>Create Your Account</h1>
-                <div className="account-form">
+                <div className="account-form card">
                     <form>
                         <div className="form-control flex">
                             <input type="text" placeholder="First Name" />
