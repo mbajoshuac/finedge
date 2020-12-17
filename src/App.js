@@ -1,14 +1,15 @@
 import './App.css';
-import NavBarLogin from "../src/Components/NavBarLogin";
-import CreateAcccount from "../src/Components/CreateAccount";
+// import NavBarLogin from "../src/Components/NavBarLogin";
+// import CreateAcccount from "../src/Components/CreateAccount";
+import SignIn from "../src/Components/SignIn";
 
 function App() {
   return (
-    <iv className="App">
-      <NavBarLogin/>
-      <CreateAcccount />
-      
-    </iv>
+    <div className="App">
+      {/* <NavBarLogin/> */}
+      {/* <CreateAcccount /> */}
+      <SignIn/>|
+    </div>
   );
 }
 
