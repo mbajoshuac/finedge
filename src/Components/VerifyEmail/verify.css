@@ -1,0 +1,31 @@
+
+.main{
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Open Sans', sans-serif;
+    text-align: center;
+}
+.main p, h3{
+    margin: 20px auto;
+}
+hr{
+    display: inline-block;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    width: 100%
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    height: 540px;
+    width: 545px;
+    border-radius: 5px;
+    box-shadow: -4px 4px 43px -12px rgba(178,170,204,1);
+}
