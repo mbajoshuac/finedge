@@ -4,10 +4,10 @@ import CreateAcccount from "../src/Components/CreateAccount";
 
 function App() {
   return (
-    <iv className="App">
+    <div className="App">
       <NavBarLogin/>
       <CreateAcccount />    
-    </iv>
+    </div>
   );
 }
 
