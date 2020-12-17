@@ -10,10 +10,6 @@ function App() {
     <div className="App">
       <NavBarLogin/>
       <CreateAcccount />
-<<<<<<< HEAD
-=======
-
->>>>>>> a547ff3474dd87700b8acc03bf1b6052c98414a6
     </div>
   );
 }
