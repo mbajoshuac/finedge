@@ -7,16 +7,22 @@ function SignIn() {
         <>
             <NavBar/>
             <section className="sign-in">
-                <form>
-                    <div>
-                        <label> First Name </label>
-                        <input type="text" name="name" id="input-name" />
-                    </div>
-                    <div>
-                        <input/>
-                    </div>
-                    <div></div>
-                </form>
+                <div>
+                    <form>
+                        <div>
+                            <input type="text" name="name" placeholder="First Name"/>
+                        </div>
+                        <div>
+                            <input type="password" placeholder="Choose password"/>
+                        </div>
+                        <div>
+                            <input type="checkbox"/><label> Keep me signed in on this device.</label>
+                            <button type="submit" className="bttn">Login</button>
+                        </div>
+                    </form>
+
+                    <p>Forgot password? Dont have an account Privacy Polocy <br/> Have an issue with 2 factor authentication </p>
+                </div>
             </section>    
         </>
     )
