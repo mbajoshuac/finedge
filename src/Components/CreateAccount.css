@@ -1,0 +1,43 @@
+.create-account {
+  margin-top: 30px;
+}
+.account-form {
+  height: 545px;
+  width: 540px;
+  margin: 20px auto;
+  padding: 2px 30px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 8px 8px 10px #cccccc;
+}
+
+.form-control {
+  margin: 40px 0;
+  justify-content: space-between;
+}
+
+.create-account h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.create-account input[type="text"] {
+  width: 45%;
+}
+
+.create-account input[type="password"] {
+  width: 100%;
+}
+
+.create-account .bttn {
+  width: 100%;
+}
+
+.create-account p {
+  text-align: center;
+}
+
+.create-account span {
+  color: #0062ff;
+}

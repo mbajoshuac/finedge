@@ -5,12 +5,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family:'Open Sans', sans-serif;
     text-align: center;
 }
 .main p, h3{
     margin: 20px auto;
+    line-height: 3rem;
+
 }
+
 hr{
     display: inline-block;
     margin-top: 30px;
@@ -28,4 +30,24 @@ hr{
     width: 545px;
     border-radius: 5px;
     box-shadow: -4px 4px 43px -12px rgba(178,170,204,1);
+    background-color: #f4f4f4
+}
+
+.login-link{
+    color: #0062ff;
+    text-decoration: none;
+
+}
+.icon{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-paper-plane{
+    font-size: 6rem;
+    color:#0062ff;
+    display: inline-block;
+    margin-top: 70px;
 }

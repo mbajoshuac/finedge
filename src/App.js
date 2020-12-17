@@ -1,13 +1,17 @@
 import './App.css';
 import NavBarLogin from "../src/Components/NavBarLogin";
-import VerifyEmail from "../src/Components/VerifyEmail/VerifyEmail"
+import CreateAcccount from "../src/Components/CreateAccount";
+import VerifyEmail from '../src/Components/VerifyEmail/VerifyEmail'
+
 
 function App() {
   return (
-    <div className="App">
+    <iv className="App">
       <NavBarLogin/>
+      {/* <CreateAcccount /> */}
       <VerifyEmail/>
-    </div>
+      
+    </iv>
   );
 }
 

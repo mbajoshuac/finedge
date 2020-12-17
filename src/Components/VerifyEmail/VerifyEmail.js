@@ -8,16 +8,16 @@ function VerifyEmail() {
         <>
         <div className="container">
             <div className="main">
-                <h3>Verify Your Email</h3>
+                <h1>Verify Your Email</h1>
                     <div className="card">
                         
                         <div clasName= "icon">
-                            <i className="fa fa-plane"></i>
+                            <i className="fa fa-paper-plane"></i>
                         </div>
                         <p>We sent a verification email to markhudges@gmail.com Click the link inside to get started!</p>
                         <hr/>
                     <div>
-                        <a href="#">Login</a>
+                        <a href="#" className="login-link">Login</a>
                     </div>  
                     </div> 
                     
