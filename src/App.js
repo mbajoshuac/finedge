@@ -5,10 +5,11 @@ import Profile from "../src/Components/Profile";
 
 function App() {
   return (
-    <div className="App">
+    <iv className="App">
       <NavBarLogin/>
       <CreateAcccount />
-    </div>
+      
+    </iv>
   );
 }
 
