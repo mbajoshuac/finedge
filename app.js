@@ -1,15 +1,12 @@
 const express = require('express')
 const app = express();
 const userRouter = require('./routes/userRoute')
-// const response = require('./utils/response')
+const response = require('./utils/response')
 
 //middilewares
 
 app.use(express.json())
 
-app.use('/', (req, res) => {
-  res.status(200).send({message: `successful connection`})
-})
 
 app.use('/user', userRouter)
 
@@ -21,9 +18,9 @@ app.use((err, req, res, next) => {
     res.status(500).json(response('failed', err.message))
 })
 
-//dead end route
-// app.use("*", (req, res) => {
-//     res.status(404).json(response('failed', "You're trying to access a route that doesn't exist...🙄 "))
-// })
+// dead end route
+app.use("*", (req, res) => {
+    res.status(404).json(response('failed', "You're trying to access a route that doesn't exist...🙄 "))
+})
 
 module.exports = app
