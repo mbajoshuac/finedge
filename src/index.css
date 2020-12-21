@@ -31,6 +31,7 @@ body {
   background-color: #0062ff;
   color: #ffffff;
   font-size: 1.2rem;
+  cursor: pointer;
 }
 
 .bttn-outline {

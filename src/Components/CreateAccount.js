@@ -1,9 +1,11 @@
 import React from 'react';
+import NavBarLogin from "./NavBarLogin";
 import "./CreateAccount.css";
 
 function CreateAccount() {
     return (
         <>
+            <NavBarLogin/>
             <section className="create-account">
                 <h1>Create Your Account</h1>
                 <div className="account-form card">
